@@ -6,13 +6,30 @@ The slope of the linear model is not considered to be zero. This is because the 
 
 This linear model effectively predicts the mpg of MechaCar prototypes. With a Combined Coefficient of Determination of 0.7, this shows that 70% of the variation of mpg values can be attributed to the 5 variables modeled against mpg. This result is better than chance, and would be a good starting point for helping to guide engineering decisions for future prototypes, if maximizing mpg was a stated design outcome.
 
+![](https://github.com/RonHolcomb/MechaCar_Statistical_Analysis/blob/main/Screenshot%20(28).png)
+
 ## Summary Statistics on Suspension Coils
 
 According to the current manufacturing data, all lots in total do meet this design specification. Although lot 3 does not meet this design specification, this is because if all samples are examined at once, there are enough coils within specification in Lots 1 and 2 to average out the variance present in Lot 3
 
+![](https://github.com/RonHolcomb/MechaCar_Statistical_Analysis/blob/main/Screenshot%20(29).png)
+![](https://github.com/RonHolcomb/MechaCar_Statistical_Analysis/blob/main/Screenshot%20(30).png)
+
 ## T-Tests on Suspension Coils
 
 According to these tests, for the 150 samples we fail to reject the Null Hypothesis, meaning that the means are statistically similar. For Lot 1, we reject the Null Hypothesis and determine that the mean of the sample is not statistically similar to the mean of the population. For Lot 2, we reject the Null Hypothesis and determine that the mean of the sample is not statistically similar to the mean of the population. For Lot 3, we fail to reject the Null Hypotheses and determine that the means are statistically similar.
+
+### 150 Sample
+![](https://github.com/RonHolcomb/MechaCar_Statistical_Analysis/blob/main/Screenshot%20(31).png)
+
+### Lot 1
+![](https://github.com/RonHolcomb/MechaCar_Statistical_Analysis/blob/main/Screenshot%20(32).png)
+
+### Lot 2
+![](https://github.com/RonHolcomb/MechaCar_Statistical_Analysis/blob/main/Screenshot%20(33).png)
+
+### Lot 3
+![](https://github.com/RonHolcomb/MechaCar_Statistical_Analysis/blob/main/Screenshot%20(34).png)
 
 ## Study Design: MechaCar vs Competition
 
